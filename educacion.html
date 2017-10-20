@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Digital</title>
+    <style>
+      a:link{color:rgb(255,116,0);}
+      img{padding-left: 30px}
+      p{font-family: fantasy;}
+      #fondogris{background: rgb(222,222,222);}
+      body{background: rgb(235,235,235)}
+      .bordeSuperior{border-top: solid 1px grey}
+    </style>
+  </head>
+  <body>
+    <header>
+    <div id="fondogris">
+    <svg id="index" width="350" height="50">
+      <circle cx="125" cy="25" r="20" fill="rgb(90,210,10)" stroke="rgb(60,140,10)"/>
+      <line x1="110" y1="38" x2="110" y2="12" stroke="rgb(60,140,10)"/>
+      <line x1="110" y1="12" x2="117" y2="20" stroke="rgb(60,140,10)"/>
+      <line x1="117" y1="20" x2="124" y2="11" stroke="rgb(60,140,10)"/>
+
+      <line x1="124" y1="39" x2="124" y2="11" stroke="rgb(60,140,10)"/>
+      <line x1="126" y1="39" x2="126" y2="11" stroke="rgb(60,140,10)"/>
+      <line x1="126" y1="39" x2="139" y2="39" stroke="rgb(60,140,10)">
+    </svg>
+    </header>
+      <h1>Curriculum Vitae</h1>
+      <h2>Mariano</h2>
+      <h2>Laje Arrigoni</h2>
+      <h3>15/03/1993</h3>
+      <h3>Cordoba - Argentina</h3>
+    </div>
+    <ul>
+      <a href="index.html"><li>Inicio</li><br></a>
+      <a href="#educacion"><li>Educacion</li><br></a>
+      <a href="experiencia.html"><li>Experiencia</li><br></a>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="3" cellspacing="0">
+      <thead>
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>Titulo</td>
+          <td>¿Culminó?</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010</td>
+          <td>Republica de Italia</td>
+          <td>Secundario</td>
+          <td>Bachiller orientado a Ciencias Sociales</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Instituto Superior Juan Zorrilla de San Martin</td>
+          <td>Terciario</td>
+          <td>Tecnicatura en Administración de Empresas</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table><br><br>
+    <form name"agregarEstudios" autocomplete="on">
+      <legend>Agregar Estudios</legend><br>
+      <label for="año">Año</label>
+      <select name="año">
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+      </select><br>
+      <label for="institucion">Institucion</label>
+      <input type="text" name="institucion" required><br>
+      <label for="lugar">Lugar</label>
+      <textarea name="area_texto" rows="2" cols="21"></textarea><br>
+      <label for="culmino">¿Culminó?</label>
+      <input type="radio" name="culmino">Si
+      <input type="radio" name="culmino">No <br>
+      <input type="submit" name="enviar">
+    </form><br>
+    <footer id="fondogris" class="bordeSuperior">Datos de Contacto<ul>
+      <li>marianolaje@outlook.com</li>
+      <li>3517639033</li>
+      <li>Juan Correas 6732</li>
+      <li>Cordoba - Argentina</li>
+    </ul></footer>
+  </body>
+</html>
